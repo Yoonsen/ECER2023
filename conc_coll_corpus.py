@@ -18,8 +18,7 @@ def query(db, query, params = ()):
     return res.fetchall()
 
 
-# In[125]:
-@st.cache_data()
+
 def zot():
     zotero = pd.read_excel("POLNET_from1988_load091220c.xlsx")
 
